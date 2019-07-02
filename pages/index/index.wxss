@@ -1,0 +1,38 @@
+/**index.wxss**/
+.change{
+  font-size: 26rpx;
+  color: #8995a1;
+  display: flex;
+  align-items: center;
+  padding: 20rpx 40rpx;
+  margin-bottom: 14rpx;
+}
+.change .icon-xiazai{
+  font-size: 20rpx;
+  margin-left: 6rpx;
+}
+.input-area{
+  background: #fff;
+  position: relative;
+}
+.input-area .icon-quxiao{
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+}
+.input-area textarea{
+  padding: 20rpx 40rpx;
+}
+.output-area{
+  background: #fff;
+  margin-top: 8rpx;
+}
+.output-area .text-title{
+  font-size: 30rpx;
+  color: #8995a1;
+  padding: 20rpx 40rpx;
+}
+.output-area .text-result{
+  font-size: 30rpx;
+  padding: 20rpx 40rpx;
+}
