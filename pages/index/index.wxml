@@ -2,18 +2,18 @@
 <view class="container page-index">
   <view class="change">
     <navigator url="/pages/change/change" hover-class="navigator-hover">
-      <text>到西班牙语</text>
+      <text>到{{curlang.chs}}</text>
       <text class="iconfont icon-xiazai"></text>
     </navigator>
   </view>
   <view class="input-area">
-    <text class="iconfont icon-quxiao"></text>
-    <textarea placeholder="请输入你要翻译的内容" placeholder-style="color:#8995a1;"/>
+    <text class="iconfont icon-quxiao" hidden="{{hideClearicon}}" bindtap="onTabclear"></text>
+    <textarea placeholder="请输入你要翻译的内容" placeholder-style="color:#8995a1;" bindinput="onInput" bindconfirm="onConfim" bindblur="onConfim" value="{{query}}"/>
   </view>
   <view class="output-area">
       <view class="text-title">译文</view>
-      <view class="text-result">
-        <text >已经翻译好了</text>
+      <view class="text-result" wx:for="{{result}}" wx:key="index">
+        <text class="text" selectable="ture">{{item.dst}}</text>
       </view>
     </view>
   <view class="copyright">

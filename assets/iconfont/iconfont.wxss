@@ -1,5 +1,5 @@
 @font-face {font-family: "iconfont";
-  src: url('https://at.alicdn.com/t/font_1273027_6ib72pdn6h.ttf?t=1562073965839') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  src: url('https://at.alicdn.com/t/font_1273027_pcwdoni0v6.ttf?t=1562235144639') format('truetype') /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
 }
 
 .iconfont {
@@ -8,6 +8,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-duihao:before {
+  content: "\e7f6";
 }
 
 .icon-xiazai:before {

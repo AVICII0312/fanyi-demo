@@ -17,22 +17,26 @@
 }
 .input-area .icon-quxiao{
   position: absolute;
-  right: 10rpx;
-  top: 10rpx;
+  right: 26rpx;
+  top: 26rpx;
 }
 .input-area textarea{
   padding: 20rpx 40rpx;
+  
 }
 .output-area{
+  flex: 1;
   background: #fff;
   margin-top: 8rpx;
+  
 }
 .output-area .text-title{
   font-size: 30rpx;
   color: #8995a1;
   padding: 20rpx 40rpx;
 }
-.output-area .text-result{
+.output-area .text-result {
   font-size: 30rpx;
   padding: 20rpx 40rpx;
+  
 }

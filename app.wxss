@@ -19,3 +19,6 @@
   font-size: 28rpx;
   color:#999;
 }
+.view-hover{
+  background: #f3f3f3!important;
+}
