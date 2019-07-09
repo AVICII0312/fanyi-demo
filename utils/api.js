@@ -24,18 +24,23 @@ function translate(q, {
         sign
       },
       success(res) {
-        if(res.data && res.data.trans_result){
+        if(res.data){
           resolve(res.data)
+        }else{
+          wx.showToast({
+            title: '翻译失败',
+            icon: 'none',
+            duration: 3000
+          })
         }
       },
-      fail() {
+      fail() { reject({ status: 'error', msg: '翻译失败'})
         wx.showToast({
           title: '翻译失败',
           icon: 'none',
           duration: 3000
         })
       }
-
     })
   })
 }

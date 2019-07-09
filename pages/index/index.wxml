@@ -8,7 +8,7 @@
   </view>
   <view class="input-area">
     <text class="iconfont icon-quxiao" hidden="{{hideClearicon}}" bindtap="onTabclear"></text>
-    <textarea placeholder="请输入你要翻译的内容" placeholder-style="color:#8995a1;" bindinput="onInput" bindconfirm="onConfim" bindblur="onConfim" value="{{query}}"/>
+    <textarea placeholder="请输入你要翻译的内容" placeholder-style="color:#8995a1;" bindinput="onInput" bindconfirm="onConfim" value="{{query}}"/>
   </view>
   <view class="output-area">
       <view class="text-title">译文</view>
